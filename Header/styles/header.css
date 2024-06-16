@@ -1,0 +1,230 @@
+/* ------------ header ------------------ */
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+ul{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.header-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    box-shadow: 0px 4px 4px rgba(124, 124, 124, 0.4);
+}
+.logo-box{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    height: 50px;
+    margin: 0 30px;
+}
+.items-box{
+    margin: 0 70px 0 70px;
+    width: 50%;
+}
+.item-bar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.item{
+    display: inline-block;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    
+}
+#profile-image{
+    width: 100px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 20px;
+    width: 30%;
+}
+.greenbutton{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    padding: 10px 27px 10px;
+    height: 52px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    border-radius: 0;
+    text-align: center;
+    box-shadow: none;
+    border: 2px solid #52b765;
+    background-color: #52b765;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0px 4px 4px rgba(124, 124, 124, 0.4);
+}
+.logo-box {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    height: 50px;
+}
+.items-box {
+    margin: 0 70px;
+    width: 50%;
+    padding-bottom: 10px;
+}
+.item-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.item {
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: black;
+}
+.profile {
+    margin: 0 30px;
+    display: flex;
+}
+#profile-image {
+    width: 50px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 20px;
+    width: 30%;
+}
+.green-button:hover {
+    color: #52b765;
+    background-color: #ffffff;
+}
+.greenbutton:hover {
+    color: #52b765;
+    background-color: #ffffff;
+}
+
+/* Navigation link hover effect */
+.item a:hover {
+    color: #46af6e;
+}
+
+/* Navbar fixed positioning */
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 2px 0 #e4e4e4;
+    z-index: 100;
+}
+
+/* Profile dropdown menu */
+.sub-menu-wrap {
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 100%;
+    right: 1%;
+    width: 220px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+   /* border: 1px solid #525252;*/
+    z-index: 2;
+    
+}
+.sub-menu-wrap.open-menu {
+    max-height: 400px;
+}
+.sub-menu {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #252525;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+}
+.user-info h3 {
+    font-weight: 500;
+}
+.userprofile-img,
+.user-info {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.sub-menu hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 15px 0 10px;
+}
+.submenu-text{
+    font-family: "Roboto", sans-serif;
+}
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+.sub-menu-link p {
+    width: 100%;
+}
+.sub-menu-link .userprofile-img {
+    width: 30px;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+}
+.sub-menu-link span {
+    font-size: 22px;
+}
+.sub-menu-link:hover span {
+    transform: translateX(5px);
+}
+.sub-menu-link:hover {
+    font-weight: 600;
+}

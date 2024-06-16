@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Header/styles/header.css">
+    
+    <title>Header</title>
+</head>
+<body>
+    <div class="header-box navbar-fixed">
+        <div class="logo-box">
+            <img src="../Header/images/logo.png" id="logo" alt="Logo">
+        </div>
+
+        <div class="items-box">
+            <nav class="items-nav">
+                <ul class="item-bar" id="TextGreenColorChange">
+                    <li class="item"><a href="../Home/home.html">Home</a></li>
+                    <li class="item"><a href="../About Us/aboutUs.html">About Us</a></li>
+                    <li class="item"><a href="../service/service.html">Services</a></li>
+                    <li class="item"><a href="../Contact Us/contactUs.php">Contacts</a></li>
+                    <li class="item"><a href="../feedback/feedback.php">Feedback</a></li>
+                    <li class="item"><a href="../FAQ/faqmain.php">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="buttons">
+            <div class="gbutton">
+                <button class="greenbutton" id="pickupbtn">Schedule a Pickup</button>
+            </div>
+            <div class="profile">
+                <img src="../Header/images/profile-icon.gif" id="profile-image" onclick="toggleSubMenu()">
+            </div>
+            
+            <div class="sub-menu-wrap" id="submenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="../Header/images/profile.png" class="userprofile-img" alt="User Profile">
+                        <h3 class="submenu-text">Thivyan</h3>
+                    </div>
+                    <hr>
+                    <a href="../useraccount/user.php" class="sub-menu-link">
+                        <img src="../Header/images/profile.png" class="userprofile-img" alt="Edit Profile Icon">
+                        <p class="submenu-text">Edit Profile</p>
+                    </a>
+                    
+                    <a href="#" class="sub-menu-link">
+                        <img src="../Header/images/help.png" class="userprofile-img" alt="Help Icon">
+                        <p class="submenu-text">Help</p>
+                        
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="../Header/images/logout.png" class="userprofile-img" alt="Logout Icon">
+                        <p class="submenu-text" onclick="logout()">Logout</p>
+                        
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../Header/js/header.js"></script>
+</body>
+</html>

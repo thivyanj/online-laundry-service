@@ -1,0 +1,437 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pure Tide</title>
+        <link rel="icon" href="../Home/images/web-icon.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="../Home/styles/home.css" />
+        <link rel="stylesheet" href="../Header/styles/header.css" />
+        <link rel="stylesheet" href="../Footer/styles/footer.css" />
+    </head>
+
+    <body>
+
+        <div class="header-box navbar-fixed">
+            <div class="logo-box">
+                <img src="../Header/images/logo.png" id="logo" alt="Logo">
+            </div>
+    
+            <div class="items-box">
+                <nav class="items-nav">
+                    <ul class="item-bar" id="TextGreenColorChange">
+                        <li class="item"><a href="../Home/home.html">Home</a></li>
+                        <li class="item"><a href="../About Us/aboutUs.html">About Us</a></li>
+                        <li class="item"><a href="../service/service.html">Services</a></li>
+                        <li class="item"><a href="../Contact Us/contactUs.php">Contacts</a></li>
+                        <li class="item"><a href="../feedback/feedback.php">Feedback</a></li>
+                        <li class="item"><a href="../FAQ/faqmain.php">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="buttons">
+                <div class="gbutton">
+                    <button class="greenbutton" id="pickupbtn"><a href="../booking-and-privacyPolicy/booking.php">Schedule a Pickup</a></button>
+                </div>
+                <div class="profile">
+                    <img src="../Header/images/profile-icon.gif" id="profile-image" onclick="toggleSubMenu()">
+                </div>
+                
+                <div class="sub-menu-wrap" id="submenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="../Header/images/profile.png" class="userprofile-img" alt="User Profile">
+                            <h3 class="submenu-text">User</h3>
+                        </div>
+                        <hr>
+                        <a href="../useraccount/user.php" class="sub-menu-link">
+                            <img src="../Header/images/profile.png" class="userprofile-img" alt="Edit Profile Icon">
+                            <p class="submenu-text">Edit Profile</p>
+                        </a>
+                        
+                        <a href="../Login/login.html" class="sub-menu-link">
+                            <img src="../Header/images/help.png" class="userprofile-img" alt="Help Icon">
+                            <p class="submenu-text">Login</p>
+                            
+                        </a>
+                        <a href="../Login/logout.php" class="sub-menu-link">
+                            <img src="../Header/images/logout.png" class="userprofile-img" alt="Logout Icon">
+                            <p class="submenu-text">Logout</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="elementor1 elementor1sub ">
+            <div class="elementor1-left">
+                <center>
+                    <h1 class="elementor1-title">Lanudry Service</h1>
+                    <h4 class="elementor1-sub-title">We Care for the Clothes You Wear</h4>
+                    <button class="green-button"><a href="../booking-and-privacyPolicy/booking.php">Order Now</a></button>
+                </center>
+            </div>
+            <div class="elementor1-right">
+                <center>
+                    <h1 class="elementor1-title">Dry Cleaning</h1>
+                    <h4 class="elementor1-sub-title">Cleaning Excellence Guaranteed!</h4>
+                    <button class="green-button"><a href="../booking-and-privacyPolicy/booking.php">Order Now</a></button>
+                </center>
+            </div>
+        </div>
+
+
+        <div class="elementor2">
+            <div class="elementor2-left">
+                <div id="elementor2-left-imgdiv">
+                    <img src="../Home/images/laundry3.jpeg" id="elementor2-left-img">
+                </div>
+                <div id="elementor2-left-25-button">
+                    <h1 id="elementor2-left-25-no">25</h1> 
+                    <h4 id="elementor2-left-25-descrip">years of<br>experience</h4>
+                </div>
+            </div>
+            <div class="elementor2-right">
+                <div id="elementor2-right-upcontent">
+                    <h5 class="green-subtitle">[More than 25 Years of Experience]</h5>
+                    <h2 class="black-title" id="elementor2-right-upcontent-title">We are Passionate About Laundry</h5>
+                    <p class="elementor2-right-descrip" >
+                        We are professionals in the laundry and dry cleaning business, 
+                        which means we always stay up to date on the latest technologies, 
+                        cleaning methods, and solutions for dealing with stains or delicate 
+                        fabrics. Plus, we maintain the highest standards of business integrity 
+                        by following local and national regulations and environmental safety rules. 
+                        We are passionate about changing the way you think about laundry!
+                    </p>
+                </div>
+
+                <div id="elementor2-right-downcontent">
+                    <div id="elementor2-right-downcontent-left">
+                        <ul id="elementor2-right-downcontent-left-list">
+                            <li>✔️ 100% Customer Satisfaction</li>
+                            <li>✔️ Free Collection & Delivery</li>
+                            <li>✔️ Affordable Prices</li>
+                            <li>✔️ Best Quality</li>
+                        </ul>
+                    </div>
+                    <div id="elementor2-right-downcontent-right">
+                        
+                            <div id="elementor2-right-downcontent-right-call-icon">
+                                <img src="../Home/images/call-button.png" id="elementor2-right-downcontent-right-call-button">
+                            </div> 
+                        
+                        
+                        <div>
+                            <p id="elementor2-right-downcontent-right-title" >Call for Quality Services</p>
+                            <h3 id="elementor2-right-downcontent-right-phoneno">1 (800) 765-43-21</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="elementor3">
+            <div class="elementor3-box">
+                <div class="elementor3-content">
+                    <img src="../Home/images/clock.png" alt="clock-image" class="elementor3-content-icon" >
+                    <div class="elementor3-content-text">
+                        <h3 class="elementor3-content-title">Save Time & Money</h3>
+                        <p class="elementor3-content-descrip">No more wasted time driving to the laundromats, we pickup and deliver for free!</p>
+                    </div>   
+                </div>
+                <div class="elementor3-content">
+                    <img src="../Home/images/pay.png" alt="payment-image" class="elementor3-content-icon" >
+                    <div class="elementor3-content-text" >
+                        <h3 class="elementor3-content-title">Save Time & Money</h3>
+                        <p class="elementor3-content-descrip">No more wasted time driving to the laundromats, we pickup and deliver for free!</p>
+                    </div>   
+                </div>
+                <div class="elementor3-content">
+                    <img src="../Home/images/eco-friendly.png" alt="leaf-image" class="elementor3-content-icon" >
+                    <div class="elementor3-content-text">
+                        <h3 class="elementor3-content-title">Save Time & Money</h3>
+                        <p class="elementor3-content-descrip">No more wasted time driving to the laundromats, we pickup and deliver for free!</p>
+                    </div>   
+                </div>
+            </div>
+        </div>
+
+
+        <div class="elementor4-head">
+            <div id="elementor4-head-upcontent">
+                <h5 class="green-subtitle">[Our Services]</h5>
+                <h2 class="black-title" id="elementor4-upcontent-title">Dry Cleaning & Laundry,Free Delivery</h5>
+            </div>
+        </div>
+
+        <div class="elementor4-services-main">
+
+            <div class="elementor4-services" id="elementor4-services1">
+                <div class="elementor4-services-icon-bg">
+                    <img src="../Home/images/dry-cleaning-icon.png" alt="ironing-image" class="elementor4-services-icon" >
+                </div>
+                <div class="elementor4-services-text">
+                    <h4 class="elementor4-services-title">Dry Cleaning</h4>
+                    <p class="elementor4-services-descrip">Keep your clothes looking sharp with our expert dry cleaning</p>
+                </div> 
+            </div>
+            <div class="elementor4-services" id="elementor4-services2">
+                <div class="elementor4-services-icon-bg">
+                    <img src="../Home/images/wahingmachine-icon.png" alt="ironing-image" class="elementor4-services-icon" > 
+                </div>
+                <div class="elementor4-services-text">
+                    <h4 class="elementor4-services-title">Laundry Service</h4>
+                    <p class="elementor4-services-descrip">Laundry made easy. Life made brighter. Sparkling laundry, effortless care.</p>
+                </div> 
+            </div>
+            <div class="elementor4-services" id="elementor4-services3">
+                <div class="elementor4-services-icon-bg">
+                    <img src="../Home/images/stream-iron-icon.png" alt="ironing-image" class="elementor4-services-icon" >
+                </div>
+                <div class="elementor4-services-text">
+                    <h4 class="elementor4-services-title">Stream Iron</h4>
+                    <p class="elementor4-services-descrip">Powerful wrinkles vanish with the deep clean of steam ironing. Say goodbye to wrinkles!</p>
+                </div> 
+            </div>
+            <div class="elementor4-services" id="elementor4-services4">
+                <h4 id="more-button"><a href="../service/service.html">MORE</a></h4>
+            </div>
+        </div>
+
+        <div class="elementor5">
+
+            <div id="elementor5-left">
+                <h5 class="green-subtitle">Get Your Clothes Collected & Delivered</h5>
+                <h5 class="black-title" id="elementor5-title">How We Work</h5>
+                <p class="elementor5-descri">
+                    Our Service is dedicated to making your life easier by providing pick up laundry service. Give yourself one less thing to worry about and try our residential wash and fold service that includes pick up and delivery. 
+                    <br><br>We have been in the laundry business for more than 12 years and would love to earn your business. Try us today and save $10 Off your first laundry service of 20 pounds or more.
+                </p>
+            </div>
+
+            <div class="elementor5-right-main">
+                <div id="elementor5-right">
+                    
+                    <div id="elementor5-right1" class="elementor5-rights">
+                        <div class="elementor5-right-no">01</div>
+                        <div class="elementor5-right-text">
+                            <div class="elementor5-right-image">
+                                <img class="elementor5-right-image1" src="../Home/images/dirtydress.png">
+                            </div>
+                            <div class="elementor5-right-title">
+                                <h6 class="elementor5-right-title1" ><span class="green-title">One</span> All Your<br> Dirty Clothes</h6>
+                                <p class="elementor5-right-descri">We are pleased to pickup your 
+                                    laundry and ensure that it is expertly laundered and pressed.
+                                </p>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div id="elementor5-right2" class="elementor5-rights">
+                        <div class="elementor5-right-no">02</div>
+                        <div class="elementor5-right-text">
+                            <div class="elementor5-right-image">
+                                <img class="elementor5-right-image1" src="../Home/images/van.png">
+                            </div>
+                            <div class="elementor5-right-title">
+                                <h6 class="elementor5-right-title1" >We <span class="green-title">Pick Up </span>Your<br> Clothes</h6>
+                                <p class="elementor5-right-descri">Morning of your pickup, leave your bags in their designated pickup location by 8:00 am for a driver to pick up.
+                                </p>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div id="elementor5-right3" class="elementor5-rights">
+                        <div class="elementor5-right-no">03</div>
+                        <div class="elementor5-right-text">
+                            <div class="elementor5-right-image">
+                                <img class="elementor5-right-image1" src="../Home/images/cleandress.png">
+                            </div>
+                            <div class="elementor5-right-title">
+                                <h6 class="elementor5-right-title1"> We <span class="green-title">Clean</span>Your<br> Clothes </h6>
+                                <p class="elementor5-right-descri">Our facilities are so good we<br> guarantee you'll be satisfied - we <br>put a quality guarantee on all items
+                                </p>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div id="elementor5-right4" class="elementor5-rights">
+                        <div class="elementor5-right-no" id="elementor5-right-no4">04</div>
+                        <div class="elementor5-right-text">
+                            <div class="elementor5-right-image">
+                                <img class="elementor5-right-image1" src="../Home/images/hanging-clothes.png">
+                            </div>
+                            <div class="elementor5-right-title">
+                                <h6 class="elementor5-right-title1" >We<span class="green-title"> Deliver</span> Clean,<br>Folded Clothes</h6>
+                                <p class="elementor5-right-descri">We'll deliver your pristine garments<br>back to you, anytime and anywhere
+                                </p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="subbuttons">
+            <button id="sub1" class="changenobtn" onclick="showSub('elementor5-right1')">1</button>
+            <button id="sub2" class="changenobtn" onclick="showSub('elementor5-right2')">2</button>
+            <button id="sub3" class="changenobtn" onclick="showSub('elementor5-right3')">3</button>
+            <button id="sub4" class="changenobtn" onclick="showSub('elementor5-right4')">4</button>
+        </div>
+
+
+        
+        <div class="elementor6">
+            <div class="elementor6-bg">
+
+                <div class="elementor6-content">
+                    <img src="../Home/images/high-quality-icon.png" alt="clock-image" class="elementor6-content-icon" >
+                    <div class="elementor6-content-text">
+                        <h3 class="elementor6-content-title">Save Time & Money</h3>
+                        <p class="elementor6-content-descrip">No more wasted time driving to the laundromats, we pickup and deliver for free!</p>
+                    </div>   
+                </div>
+                <div class="elementor6-content">
+                    <img src="../Home/images/clean-dress-icon.png" alt="payment-image" class="elementor6-content-icon" >
+                    <div class="elementor6-content-text">
+                        <h3 class="elementor6-content-title">Save Time & Money</h3>
+                        <p class="elementor6-content-descrip">No more wasted time driving to the laundromats, we pickup and deliver for free!</p>
+                    </div>   
+                </div>
+                <div class="elementor6-content">
+                    <img src="../Home/images/happy-thumbsup-icon.png" alt="leaf-image" class="elementor6-content-icon" >
+                    <div class="elementor6-content-text">
+                        <h3 class="elementor6-content-title">Save Time & Money</h3>
+                        <p class="elementor6-content-descrip">No more wasted time driving to the laundromats, we pickup and deliver for free!</p>
+                    </div>   
+                </div>
+
+            </div>
+        </div>
+
+        <div class="elementor7-head">
+            <div>
+                <h5 class="green-subtitle">Affordable Prices</h5>
+                <h2 class="black-title" id="elementor2-right-upcontent-title">Our Dry Cleaning & Laundry Prices</h5>
+                <p >
+                    Our prices are simple and affordable which are easy on pocket
+                    in comparison with the high street prices</p>
+            </div>
+        </div>
+
+        <div class="elementor7">
+            <div class="elementor7-price1">
+                <div class="price-content"></div>
+                <img src="../Home/images/day-dress-icon.png" class="price-service">
+                <h2>Day Dress Service</h2>
+                <p class="price-middle-text">Dry Clean</p>
+                <div class="price-text"><h5 class="From">From</h5><h1 class="amount-text">$10.00</h1></div>
+            </div>
+
+            <div class="elementor7-price2">
+                <img src="../Home/images/blanket-icon.png" class="price-service">
+                <h2>Day Dress Service</h2>
+                <p class="price-middle-text">Dry Clean</p>
+                <div class="price-text"><h5 class="From">From</h5><h1 class="amount-text">$10.00</h1></div>
+            </div>
+
+            <div class="elementor7-price3">
+                <img src="../Home/images/coat-icon.png" class="price-service">
+                <h2>Day Dress Service</h2>
+                <p class="price-middle-text">Dry Clean</p>
+                <div class="price-text"><h5 class="From">From</h5><h1 class="amount-text">$10.00</h1></div>
+            </div>
+
+            <div class="elementor7-price4">
+                <button class="more-button"><a href="../service/service.html">MORE</a></button>
+            </div>
+        </div>
+
+        <div class="elementor8">
+            <div class="elementor8-left">
+                <span id="elementor8-left-up-title">Quality Service with <br> Free</span>
+                <span id="elementor8-left-green-title">Collection & Delivery</span>
+                <p id="elementor8-left-tag">It is our goal to offer you the best possible laundry <br> and dry cleaning service available.</p>
+                <h3 id="elementor8-left-phonenumber">1 (800) 765-43-21</h3>
+            </div>
+            <div class="elementor8-right">
+                <img src="../Home/images/delivery-van.gif">
+            </div>
+        </div>
+
+        
+       <!-- Footer -->
+       <div class="footer-main">
+    
+        <div class="footer-set" id="footer-set1">
+            <img src="../Footer/images/logo.png" id="logo">
+            <div class="description">At our laundry and dry cleaning service, our team's expertise keeps us at the forefront of new cleaning methods and technologies.</div>
+            <div class="socialmediabox">
+                <div class="socialmedia">
+                    <img src="../Footer/images/x-icon.png" class="socialicon">
+                </div>
+                <div class="socialmedia">
+                    <img src="../Footer/images/fb-icon.png" class="socialicon">
+                </div>
+                <div class="socialmedia">
+                    <img src="../Footer/images/linkdin-icon.png" class="socialicon">
+                </div>
+                <div class="socialmedia">
+                    <img src="../Footer/images/instagram-icon.png" class="socialicon">
+                </div>
+            </div>
+        </div>
+  
+        <div class="footer-set" id="footer-set2">
+            <div class="footer-set-title">Contacts</div>
+            <div class="contact-details">
+                <div class="details" id="location">
+                    <img src="../Footer/images/location.png" class="contact-details-icon">
+                    <div class="contact-details-text">234 Kandy Road, Malabe</div>
+                </div>
+                <div class="details" id="time">
+                    <img src="../Footer/images/clock.png" class="contact-details-icon">
+                    <div class="contact-details-text">Mon-Fri: 7:00am-7:00pm</div>
+                </div>
+                <div class="details" id="mail">
+                    <img src="../Footer/images/mail.png" class="contact-details-icon">
+                    <div class="contact-details-text">noreply@envato.com</div>
+                </div>
+                <div class="details" id="phone">
+                    <img src="../Footer/images/call.png" class="contact-details-icon">
+                    <div class="contact-details-text">1 (800) 765-43-21</div>
+                </div>
+            </div>
+        </div>
+  
+        <div class="footer-set" id="footer-set3">
+            <div class="footer-set-title">Expect our call soon!</div>
+            <form action="#">
+                <input type="email" id="email" name="email" placeholder="Your E-mail Address" >
+                <button type="submit" id="touch-button"><a href="../FAQ/faqmain.php">Touch Soon!</a></button>
+            </form>
+            
+        </div>
+    </div>
+  
+  
+    <div class="final-footer">
+      <h4 id="final-footer-1">© 2024 PureTide. All Rights Reserved.</h4>
+      <a href="../terms&conditions/terms.html" id="final-footer-2">Terms and Conditions</a>
+      <a href="../booking-and-privacyPolicy/privacy.html" id="final-footer-3">Privacy Policy</a>
+  
+    </div>
+
+        <script src="../Home/js/home.js"></script>
+        
+    </body>
+</html>
